@@ -1,8 +1,7 @@
 {
   "name": "haven-app",
-  "homepage": "https://havencornell.github.io",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@petejkim/react-scripts-ts-sass": "2.15.2",
     "classnames": "^2.2.6",
@@ -16,9 +15,7 @@
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
-    "eject": "react-scripts-ts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "eject": "react-scripts-ts eject"
   },
   "devDependencies": {
     "@types/classnames": "^2.2.6",
